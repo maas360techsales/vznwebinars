@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: linear-gradient(135deg, #e5f0ff, #f4f7fb); /* Soft IBM blue gradient */
+  color: #1c1f2a;
+}
+
+header {
+  background-color: #0f62fe; /* IBM Blue */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.logo-container img {
+  max-width: auto;
+  height: 200px;
+}
+
+
+h1 {
+  margin: 0.5rem 0 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  text-align: center;
+  color: #0f62fe;
+  margin-bottom: 1.5rem;
+}
+
+.webinar-list {
+  display: grid;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.webinar {
+  background-color: #f0f4f9;
+  border-left: 5px solid #0f62fe;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.webinar:hover {
+  transform: scale(1.01);
+}
+
+.webinar p {
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+}
+
+.webinar a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0f62fe;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.webinar a:hover {
+  background-color: #0043ce;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
